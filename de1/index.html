@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>FRANCO</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+	<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="assets/js/script.js"></script>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@300;400;600;700;800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pixeden-stroke-7-icon@1.2.3/pe-icon-7-stroke/dist/pe-icon-7-stroke.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="wrap">
+	   	<div class="search">
+	   		<div class="search_main">
+	   			<input type="text" class="searchTerm" placeholder="search..">
+	     		<button type="submit" class="searchButton"><i onclick="search_button()" class="fas fa-search"></i></button>
+	   		</div>
+	     	<div class="close_s">
+				<i onclick="close_search()" class="i-close fas fa-window-close"></i>	
+			</div>
+	   	</div>
+	</div>
+	<div class="header">
+		<div class="top-menu">	
+			<div class="top-menu-left">
+				<i class="far fa-bookmark"></i>
+				<p>welcome to Franco - an e-Commerce PSD Template!</p>
+			</div>
+			<div class="top-menu-right">
+				<div class="top-menu-setting">
+					<i class="fas fa-cog"></i>
+					<a href="#" title="Shop Setting">Shop Setting</a>
+				</div>
+				<div class="top-menu-setting">
+					<i class="fas fa-lock"></i>
+					<a href="#" title="Member Login">Member Login</a>
+				</div>
+			</div>
+		</div>
+		<div class="main-menu">
+			<div class="logo">
+				<p>franco</p>
+			</div>
+			<div class="menu">
+				<ul>
+					<li><a href="#" title="HOME">HOME</a></li>
+					<li><a href="#" title="WOMEN">WOMEN</a></li>
+					<li><a href="#" title="MEN">MEN</a></li>
+					<li><a href="#" title="ABOUT">ABOUT US</a></li>
+					<li><a href="#" title="BLOG">BLOG</a></li>
+					<li><a href="#" title="COLLECTIONS">COLLECTIONS</a></li>
+					<li><a href="#" title="CONTACT">CONTACT</a></li>
+					<li><a href="#"><i onclick="search_box()" class="fas fa-search"></i></a></li>
+				</ul>
+			</div>
+			<div class="menu-bar">
+                    <div class="nav-bar">
+                        <i class="pe-7s-menu"></i>
+                    </div>
+                    <ul class="menu-content">
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">WOMEN</a></li>
+                        <li><a href="#">MEN</a></li>
+                        <li><a href="#">ABOUT US</a></li>
+                        <li><a href="#">BLOG</a></li>
+                        <li><a href="#">COLLECTIONS</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                        </ul>
+            </div>
+			<div class="cart">
+				<a href="#"><i class="pe-7s-like"></i></a>
+				<a href="#"><i class="pe-7s-cart"></i></a>
+			</div>
+		</div>
+	</div>
+	<div class="main">
+		<div class="ads">
+			<div class="ads-left">
+				<div class="base">
+					<img src="assets/images/ads1.jpg">
+					<div class="title">
+						<p class="two-high">Two High-end Materials</p>
+						<a href="#" class="shop-now">Shop Now</a>
+					</div>
+				</div>
+			</div>
+			<div class="ads-right">
+				<div class="base-above">
+					<img src="assets/images/ads2.jpg">
+					<div class="border"></div>
+					<div class="title">
+						<p class="small">SMALL THING</p>
+						<P class='make'>MAKE DIFFERENT</P>
+					</div>
+				</div>
+				<div class="base-below">
+					<img src="assets/images/ads3.jpg">
+					<div class="title">
+						<p class="fo">FOLIO</p>
+						<P class='back'>BACKPACK</P>
+						<a href="#" class="shop-now">Shop Now</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="products">
+			<div class="title">
+				<p class="franco">FRANCO</p>
+				<p class="featured">FEATURED ITEMS</p>
+			</div>
+			<div class="products-list">
+				<div class="list-above">
+					<div class="list">
+						<div class="list-img">
+							<img src="assets/images/Đề-1_03.jpg" class="list-img">
+						</div>
+						<div class="list-addtocart">
+							<a href="#">ADD TO CART</a>
+						</div>
+						<div class="list-decreption">
+							<div class="decreption-name">
+								<a href="#">Suspendisse id volutpat</a>
+							</div>
+							<div class="decreption-star">
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+								<i class="far fa-star" style="color: #d1d1d1;"></i>
+							</div>
+							<div class="decreption-price">
+								<strike>$99.00</strike>
+								<p>$84.00</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="list">
+						<div class="list-img">
+							<img src="assets/images/Đề-1_05.jpg" class="list-img">
+						</div>
+						<div class="list-addtocart">
+							<a href="#">ADD TO CART</a>
+						</div>
+						<div class="list-decreption">
+							<div class="decreption-name">
+								<a href="#">Suspendisse id volutpat</a>
+							</div>
+							<div class="decreption-star">
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+								<i class="far fa-star" style="color: #d1d1d1;"></i>
+							</div>
+							<div class="decreption-price">
+								<strike>$99.00</strike>
+								<p>$84.00</p>
+							</div>
+						</div>
+					</div>
+					<div class="list">
+						<div class="list-img">
+							<img src="assets/images/Đề-1_07.jpg" class="list-img">
+						</div>						
+						<div class="list-addtocart">
+							<a href="#">ADD TO CART</a>
+						</div>
+						<div class="list-decreption">
+							<div class="decreption-name">
+								<a href="#">Suspendisse id volutpat</a>
+							</div>
+							<div class="decreption-star">
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+								<i class="far fa-star" style="color: #d1d1d1;"></i>
+							</div>
+							<div class="decreption-price">
+								<strike>$99.00</strike>
+								<p>$84.00</p>
+							</div>
+						</div>
+					</div>
+					<div class="list">
+						<div class="list-img">
+							<img src="assets/images/Đề-1_09.jpg" class="list-img">
+						</div>
+						<div class="list-addtocart">
+							<a href="#">ADD TO CART</a>
+						</div>
+						<div class="list-decreption">
+							<div class="decreption-name">
+								<a href="#">Suspendisse id volutpat</a>
+							</div>
+							<div class="decreption-star">
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+								<i class="far fa-star" style="color: #d1d1d1;"></i>
+							</div>
+							<div class="decreption-price">
+								<strike>$99.00</strike>
+								<p>$84.00</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="list-above">
+					<div class="list">
+						<div class="list-img">
+							<img src="assets/images/Đề-1_06.jpg" class="list-img">
+						</div>
+						<div class="list-addtocart">
+							<a href="#">ADD TO CART</a>
+						</div>
+						<div class="list-decreption">
+							<div class="decreption-name">
+								<a href="#">Suspendisse id volutpat</a>
+							</div>
+							<div class="decreption-star">
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+								<i class="far fa-star" style="color: #d1d1d1;"></i>
+							</div>
+							<div class="decreption-price">
+								<strike>$99.00</strike>
+								<p>$84.00</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="list">
+						<div class="list-img">
+							<img src="assets/images/Đề-1_07.jpg" class="list-img">
+						</div>
+						<div class="list-addtocart">
+							<a href="#">ADD TO CART</a>
+						</div>
+						<div class="list-decreption">
+							<div class="decreption-name">
+								<a href="#">Suspendisse id volutpat</a>
+							</div>
+							<div class="decreption-star">
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+								<i class="far fa-star" style="color: #d1d1d1;"></i>
+							</div>
+							<div class="decreption-price">
+								<strike>$99.00</strike>
+								<p>$84.00</p>
+							</div>
+						</div>
+					</div>
+					<div class="list">
+						<div class="list-img">
+							<img src="assets/images/Đề-1_08.jpg" class="list-img">
+						</div>
+						<div class="list-addtocart">
+							<a href="#">ADD TO CART</a>
+						</div>
+						<div class="list-decreption">
+							<div class="decreption-name">
+								<a href="#">Suspendisse id volutpat</a>
+							</div>
+							<div class="decreption-star">
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+								<i class="far fa-star" style="color: #d1d1d1;"></i>
+							</div>
+							<div class="decreption-price">
+								<strike>$99.00</strike>
+								<p>$84.00</p>
+							</div>
+						</div>
+					</div>
+					<div class="list">
+						<div class="list-img">
+							<img src="assets/images/Đề-1_11.jpg" class="list-img">
+						</div>
+						<div class="list-addtocart">
+							<a href="#">ADD TO CART</a>
+						</div>
+						<div class="list-decreption">
+							<div class="decreption-name">
+								<a href="#">Suspendisse id volutpat</a>
+							</div>
+							<div class="decreption-star">
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+								<i class="far fa-star" style="color: #d1d1d1;"></i>
+							</div>
+							<div class="decreption-price">
+								<strike>$99.00</strike>
+								<p>$84.00</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="blog">
+		<div class="title">
+			<p class="latest">LATEST</p>
+			<p class="new">NEWS & EVENTS</p>
+			<div class="item-border"></div>
+		</div>
+		<div class="blog-list">
+			<div class="list-item">
+				<div class="item-img">
+					<img src="assets/images/post1.jpg">
+					<div class="item-date">
+						<p>Jan</p>
+						<p>23</p>
+					</div>
+					<div class="item-border"></div>
+				</div>
+				<div class="item-below">
+					<div class="item-content">
+						<a href="#" class="title">In commodo dolor vitae</a>
+						<p class="content">Aliquam tempor sagittis neque, vel aliquam risus consectetur vel. Aenean hendrerit, elit a lacinia suscipit, orci mauris.</p>
+					</div>
+					<div class="item-info">
+						<div class="info">
+							<i class="far fa-comment"></i>
+							<p>12</p>
+						</div>
+						<div class="info">
+							<i class="far fa-heart"></i>
+							<p>6</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="list-item">
+				<div class="item-img">
+					<img src="assets/images/post2.jpg">
+					<div class="item-date">
+						<p>Jan</p>
+						<p>23</p>
+					</div>
+					<div class="item-border"></div>
+				</div>
+				<div class="item-below">
+					<div class="item-content">
+						<a href="#" class="title">Vivamus non dignissim elit</a>
+						<p class="content">Aliquam tempor sagittis neque, vel aliquam risus consectetur vel. Aenean hendrerit, elit a lacinia suscipit, orci mauris.</p>
+					</div>
+					<div class="item-info">
+						<div class="info">
+							<i class="far fa-comment"></i>
+							<p>12</p>
+						</div>
+						<div class="info">
+							<i class="far fa-heart"></i>
+							<p>6</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="list-item">
+				<div class="item-img">
+					<img src="assets/images/post3.jpg">
+					<div class="item-date">
+						<p>Jan</p>
+						<p>23</p>
+					</div>
+					<div class="item-border"></div>
+				</div>
+				<div class="item-below">
+					<div class="item-content">
+						<a href="#" class="title">Ut lacinia erat ut diam volutpat</a>
+						<p class="content">Aliquam tempor sagittis neque, vel aliquam risus consectetur vel. Aenean hendrerit, elit a lacinia suscipit, orci mauris.</p>
+					</div>
+					<div class="item-info">
+						<div class="info">
+							<i class="far fa-comment"></i>
+							<p>12</p>
+						</div>
+						<div class="info">
+							<i class="far fa-heart"></i>
+							<p>6</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="list-item">
+				<div class="item-img">
+					<img src="assets/images/post1.jpg">
+					<div class="item-date">
+						<p>Jan</p>
+						<p>23</p>
+					</div>
+					<div class="item-border"></div>
+				</div>
+				<div class="item-below">
+					<div class="item-content">
+						<a href="#" class="title">Ut lacinia erat ut diam volutpat</a>
+						<p class="content">Aliquam tempor sagittis neque, vel aliquam risus consectetur vel. Aenean hendrerit, elit a lacinia suscipit, orci mauris.</p>
+					</div>
+					<div class="item-info">
+						<div class="info">
+							<i class="far fa-comment"></i>
+							<p>12</p>
+						</div>
+						<div class="info">
+							<i class="far fa-heart"></i>
+							<p>6</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="list-item">
+				<div class="item-img">
+					<img src="assets/images/post2.jpg">
+					<div class="item-date">
+						<p>Jan</p>
+						<p>23</p>
+					</div>
+					<div class="item-border"></div>
+				</div>
+				<div class="item-below">
+					<div class="item-content">
+						<a href="#" class="title">Ut lacinia erat ut diam volutpat</a>
+						<p class="content">Aliquam tempor sagittis neque, vel aliquam risus consectetur vel. Aenean hendrerit, elit a lacinia suscipit, orci mauris.</p>
+					</div>
+					<div class="item-info">
+						<div class="info">
+							<i class="far fa-comment"></i>
+							<p>12</p>
+						</div>
+						<div class="info">
+							<i class="far fa-heart"></i>
+							<p>6</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="list-item">
+				<div class="item-img">
+					<img src="assets/images/post3.jpg">
+					<div class="item-date">
+						<p>Jan</p>
+						<p>23</p>
+					</div>
+					<div class="item-border"></div>
+				</div>
+				<div class="item-below">
+					<div class="item-content">
+						<a href="#" class="title">Ut lacinia erat ut diam volutpat</a>
+						<p class="content">Aliquam tempor sagittis neque, vel aliquam risus consectetur vel. Aenean hendrerit, elit a lacinia suscipit, orci mauris.</p>
+					</div>
+					<div class="item-info">
+						<div class="info">
+							<i class="far fa-comment"></i>
+							<p>12</p>
+						</div>
+						<div class="info">
+							<i class="far fa-heart"></i>
+							<p>6</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="list-item">
+				<div class="item-img">
+					<img src="assets/images/post1.jpg">
+					<div class="item-date">
+						<p>Jan</p>
+						<p>23</p>
+					</div>
+					<div class="item-border"></div>
+				</div>
+				<div class="item-below">
+					<div class="item-content">
+						<a href="#" class="title">Ut lacinia erat ut diam volutpat</a>
+						<p class="content">Aliquam tempor sagittis neque, vel aliquam risus consectetur vel. Aenean hendrerit, elit a lacinia suscipit, orci mauris.</p>
+					</div>
+					<div class="item-info">
+						<div class="info">
+							<i class="far fa-comment"></i>
+							<p>12</p>
+						</div>
+						<div class="info">
+							<i class="far fa-heart"></i>
+							<p>6</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="list-item">
+				<div class="item-img">
+					<img src="assets/images/post2.jpg">
+					<div class="item-date">
+						<p>Jan</p>
+						<p>23</p>
+					</div>
+					<div class="item-border"></div>
+				</div>
+				<div class="item-below">
+					<div class="item-content">
+						<a href="#" class="title">Ut lacinia erat ut diam volutpat</a>
+						<p class="content">Aliquam tempor sagittis neque, vel aliquam risus consectetur vel. Aenean hendrerit, elit a lacinia suscipit, orci mauris.</p>
+					</div>
+					<div class="item-info">
+						<div class="info">
+							<i class="far fa-comment"></i>
+							<p>12</p>
+						</div>
+						<div class="info">
+							<i class="far fa-heart"></i>
+							<p>6</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="list-item">
+				<div class="item-img">
+					<img src="assets/images/post3.jpg">
+					<div class="item-date">
+						<p>Jan</p>
+						<p>23</p>
+					</div>
+					<div class="item-border"></div>
+				</div>
+				<div class="item-below">
+					<div class="item-content">
+						<a href="#" class="title">Ut lacinia erat ut diam volutpat</a>
+						<p class="content">Aliquam tempor sagittis neque, vel aliquam risus consectetur vel. Aenean hendrerit, elit a lacinia suscipit, orci mauris.</p>
+					</div>
+					<div class="item-info">
+						<div class="info">
+							<i class="far fa-comment"></i>
+							<p>12</p>
+						</div>
+						<div class="info">
+							<i class="far fa-heart"></i>
+							<p>6</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+        <div class="content-three-dots">
+            <i class="fas fa-circle dot " onclick="showSlide(1)" aria-hidden="true"></i>
+            <i class="fas fa-circle dot dot-active" onclick="showSlide(2)" aria-hidden="true"></i>
+            <i class="fas fa-circle dot " onclick="showSlide(3)" aria-hidden="true"></i>
+        </div>
+	</div>
+	<div class="footer">
+		<div class="footer-above">
+			<div class="above-left">
+				<div class="title">
+					<h3>About Franco</h3>
+				</div>
+				<div class="content">
+					<p>Aliquam tempor sagittis neque, vel aliquam risus consectetur vel. Aenean hendrerit, elit a lacinia suscipit, orci mauris vulputate mi, eu interdum nunc diam at ipsum. </p>
+				</div>
+				<div class="menu">
+					<ul>
+						<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+						<li><a href="#"><i class="fab fa-behance"></i></a></li>
+						<li><a href="#"><i class="fab fa-dribbble"></i></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="above-center">
+				<div class="title">
+					<h3>Navigation</h3>
+				</div>
+				<div class="menu">
+					<div class="menu1">
+						<ul>
+							<li><a href="#">Home</a></li>
+							<li><a href="#">About Us</a></li>
+							<li><a href="#">Our Blog</a></li>
+							<li><a href="#">Women</a></li>
+							<li><a href="#">Men</a></li>
+							<li><a href="#">Contact Us</a></li>
+						</ul>
+					</div>
+					<div class="menu1">
+						<ul>
+							<li><a href="#">FAQs</a></li>
+							<li><a href="#">Featured Brands</a></li>
+							<li><a href="#">Gift Vouchers</a></li>
+							<li><a href="#">Affiliates</a></li>
+							<li><a href="#">Specials Gift</a></li>
+							<li><a href="#">Terms & Conditions</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="above-right">
+				<div class="title">
+					<h3>Shop Location</h3>
+				</div>
+				<div class="address">
+					<ul>
+						<li><i class="far fa-map"></i> <p>500 Hennessy Road</p></li>
+						<li><p class="cau">Causeway Bay, Hong Kong</p></li>
+						<li><a href="tel:123456789"><i class="fas fa-phone-alt"></i><p>+1 23456789</p></a></li>
+						<li><a href="mailto:contact@yourdomain.com"><i class="far fa-envelope"></i><p>contact@yourdomain.com</p></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="line">
+		</div>
+		<div class="footer-below">
+			<div class="below-left">
+				<p>© Copyright 2015 & Made with </p>
+				<i class="fas fa-heart"></i>
+				<p> by </p>
+				<p class="arr">ArrowHitech.</p>
+			</div>
+			<div class="below-right">
+				<ul>
+					<li><i class="fab fa-cc-visa"></i></li>
+					<li><i class="fab fa-cc-paypal"></i></li>
+					<li><i class="fab fa-cc-mastercard"></i></li>
+					<li><i class="fab fa-cc-discover"></i></li>
+					<li><i class="fab fa-cc-amex"></i></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

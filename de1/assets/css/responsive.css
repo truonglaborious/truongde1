@@ -1,0 +1,119 @@
+@media(max-width: 768px) {
+  .header .top-menu{
+    display: flex;
+    height: 48px;
+    background: #222222;
+    max-width: 100%;
+  }
+  .header .top-menu .top-menu-left{
+    display: flex;
+    align-items: center;
+    max-width: 50%;
+  }
+  .header .top-menu .top-menu-right{
+    display: flex;
+    justify-content: flex-end;
+    max-width: 50%;
+  }
+  i.pe-7s-menu {
+      display: block;
+  }
+  .header .main-menu{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    border-block-end: 1px solid #dddddd;
+    margin-bottom: 30px;
+    width: 100%;  
+  }
+  .header .main-menu .logo{
+    border-width: 2px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    margin-left: 32px;
+    padding: 11px 16px 11px 16px;
+    width: 20.5%;
+  }
+
+  .header .main-menu .logo p{
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    line-height: 0.75;
+  }
+
+  .header .main-menu .logo p:after{
+    content: '';
+    margin-right: -1em;
+  }
+
+  .header .main-menu .menu{
+      display: none;
+  }
+  .menu-bar {
+      margin-left: 47%;
+  }
+  .main-menu .cart{
+    display: flex;
+    justify-content: flex-end;
+    width: 27%;
+  }
+
+  .main-menu .cart i{
+    margin-right: 30px;
+    font-size: 30px;
+  }
+
+  .main .ads {
+    display: block;
+    margin-bottom: 79px;
+  }
+  .main .ads .ads-left{
+    max-width: 100%;
+  }
+  .main .ads .ads-left .base img{
+    width:768px;
+  }
+  .main .ads .ads-right{
+    display: flex;
+    margin-top: 30px;
+  }
+  .main .ads .ads-right .base-above{
+    margin-left: 8.5px;
+  }
+  .main .ads .ads-right .base-below{
+    margin-top:0px;
+    margin-left:30px;
+  }
+
+  .main {
+    width: 768px;
+    margin: 0 auto;
+  }
+  .footer .footer-above {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+  .footer .footer-above .above-center{
+    margin-left:20px;
+  }
+  .footer .footer-below{
+    width: 100%;
+  }
+}
+
+@media (min-width: 1280px){
+  .header .main-menu .logo{
+    border-width: 2px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    margin-left: 32px;
+    padding: 11px 16px 11px 16px;
+    width: 11%;
+  }
+
+}
